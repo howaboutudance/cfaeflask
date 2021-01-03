@@ -1,0 +1,4 @@
+flask ~= 1.1.2
+Flask-Migrate ~= 2.5.3
+wheel
+gunicorn
