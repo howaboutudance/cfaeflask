@@ -23,6 +23,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/sampleproject",
     packages=package_list,
+    include_package_data=True,
+    zip_safe=False,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache License",

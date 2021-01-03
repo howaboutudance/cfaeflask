@@ -23,6 +23,7 @@ WORKDIR /app
 COPY cfaeflask/. ./cfaeflask
 COPY README.md .
 COPY setup.py .
+COPY MANIFEST.in .
 RUN python setup.py bdist_wheel
 
 FROM python:3.7-slim AS build-image
